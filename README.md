@@ -4,7 +4,7 @@
 <div align="center">
   <img src="public/tube-green-logo.png" alt="Logo berolab" width="300" />
   <br/>
-  <em>Desenvolva interfaces modernas e acessíveis com berolab</em>
+  <em>Comunidade de Devs aprendendo a programar</em>
 </div>
 
 Bem-vindo à documentação do projeto **berolab**! Este repositório reúne componentes, estilos e exemplos para acelerar o desenvolvimento de aplicações web modernas com React, Vite e Tailwind CSS.
