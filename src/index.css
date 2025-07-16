@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dracula Theme Colors */
+    --background: 231 15% 18%; /* #282a36 */
+    --foreground: 60 30% 96%; /* #f8f8f2 */
+
+    --card: 232 14% 18%; /* Card background slightly different */
+    --card-foreground: 60 30% 96%;
+
+    --popover: 231 15% 18%;
+    --popover-foreground: 60 30% 96%;
+
+    --primary: 265 89% 78%; /* #bd93f9 Dracula purple */
+    --primary-foreground: 231 15% 18%;
+
+    --secondary: 232 14% 31%; /* #44475a */
+    --secondary-foreground: 60 30% 96%;
+
+    --muted: 232 14% 31%; /* #44475a */
+    --muted-foreground: 225 27% 51%; /* #6272a4 */
+
+    --accent: 326 100% 74%; /* #ff79c6 Dracula pink */
+    --accent-foreground: 231 15% 18%;
+
+    --destructive: 0 100% 67%; /* #ff5555 Dracula red */
+    --destructive-foreground: 60 30% 96%;
+
+    --border: 232 14% 31%; /* #44475a */
+    --input: 232 14% 31%;
+    --ring: 265 89% 78%;
+
+    --radius: 0.5rem;
+
+    /* Custom Dracula colors */
+    --dracula-green: 135 94% 65%; /* #50fa7b */
+    --dracula-yellow: 65 92% 76%; /* #f1fa8c */
+    --dracula-orange: 31 100% 71%; /* #ffb86c */
+    --dracula-cyan: 191 97% 77%; /* #8be9fd */
+    --dracula-comment: 225 27% 51%; /* #6272a4 */
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
