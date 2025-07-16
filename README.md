@@ -1,6 +1,6 @@
 # Documentação berolab
 
-![Logo berolab](public/tube-green-logo.png)
+<img src="public/tube-green-logo.png" alt="Logo berolab" width="100" />
 
 Bem-vindo à documentação do projeto **berolab**! Este repositório reúne componentes, estilos e exemplos para acelerar o desenvolvimento de aplicações web modernas com React, Vite e Tailwind CSS.
 
